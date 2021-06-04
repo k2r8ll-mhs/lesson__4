@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,500,700&display=swap");
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	color: #9a9a9a;
+	line-height: 1;
+	font-family: "Lato", sans-serif;
+}
+/* ------------------ */
+.header__logo-block {
+	text-align: center;
+	outline: solid 1px red;
+}
+.header__menu-block {
+	text-align: center;
+}
+.header__menu-link {
+	font-style: italic;
+	font-weight: 700;
+	font-size: 17px;
+	color: #222831;
+	text-shadow: 1px 1px 1px #000000;
+}
+#workspace {
+	color: indianred;
+	font-size: 18px;
+	text-decoration: line-through;
+}
+.header__menu-link.events {
+	color: rgb(252, 143, 0);
+	font-size: 28px;
+	text-align: right;
+	text-decoration: line-through;
+	letter-spacing: 100px;
+}
+.header__menu-link.events span {
+	color: #000;
+	font-size: 38px;
+	text-shadow: 5px 5px 5px red;
+}
+.btn {
+	font-size: 30px;
+	text-align: center;
+}
+.log__in {
+	font-family: "Lora", monospace;
+	font-style: oblique;
+	font-weight: 700;
+	color: red;
+	text-shadow: 1px 3px 1px rgb(1, 63, 250);
+}
+.sign__up {
+	color: lawngreen;
+	text-shadow: 1px 3px 1px #000;
+}
+
+.main__introducing-block h2 {
+	text-align: right;
+	font-size: 35px;
+	text-decoration: underline overline red;
+	color: rgb(1, 63, 250);
+	text-shadow: 5px 4px 4px red;
+}
+.revolutionary__title p {
+	text-transform: capitalize;
+	color: #10375c;
+	font-weight: bold;
+	font-size: 52px;
+	line-height: 67px;
+}
+.revolutionary__title span {
+	color: #dd2c00;
+	font-weight: 700;
+	text-shadow: 3px 4px 2px #000;
+}
+.revolutionary__text p {
+	font-family: "Lora", fantasy;
+	font-style: italic;
+	line-height: 30px;
+	color: #6a6a6a;
+}
+.main__findyourspacenow-block h2 {
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	color: rgba(255, 0, 106, 0.212);
+	text-decoration: underline;
+	text-shadow: -20px -13px 3px red, 20px 23px 3px red;
+}
+.navigation__list li {
+	font-size: 19px;
+}
+.navigation__list a {
+	color: rgb(30, 255, 0);
+	text-shadow: 2px 1px 2px red;
+}
+.navnav__list a {
+	color: rgb(17, 0, 255);
+	text-shadow: none;
+}
+.main__findmyspace-block a {
+	color: rgba(255, 0, 0, 0.295);
+	text-shadow: 0px -10px 2px red, 0px 10px 2px red;
+}
